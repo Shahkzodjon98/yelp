@@ -1,8 +1,8 @@
 React – A JavaScript library for building user interfaces
 
-# My Yelp
+#  yelp-master
 
-Welcome to my project. It is My Yelp project.
+Welcome to my project. It is yelp-master project.
 
 
 ## Acknowledgements
@@ -15,7 +15,7 @@ Welcome to my project. It is My Yelp project.
 ## Authors
 
 Github
-- [@Soburjon19](https://github.com/Soburjon19/)
+- [@Shahkzodjon98](https://github.com/Shahkzodjon98/)Shahkzodjon98
 
 ## Deployment
 
@@ -41,17 +41,17 @@ I learned more about ReactJs and AWS from this video
 Clone the project
 
 bash
-  git clone git remote add origin https://github.com/Soburjon19/myyelp.git
+  git clone git remote add origin https://github.com/Shahkzodjon98/yelp-master.git
 
 Go to the project directory
 
 bash
-  cd yelp
+  cd yelp-master
 
 Install dependencies
 
 bash
-  npm install
+  npm install 
 
 Start the server
 
