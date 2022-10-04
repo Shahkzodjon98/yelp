@@ -73,12 +73,7 @@ function App({ signOut }) {
                   </tr>
                 </thead>
                 <tbody>
-                <tr>
-      <th scope="row">1</th>
-      <td>Shakhzod</td>
-      <td>Erkinov</td>
-      <td>@Shaxa</td>
-    </tr>
+   
                   {
                     Restaurants.map((restaurant, index) => (
                       <tr key={`restaurant-${index}`}>
