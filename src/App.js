@@ -56,7 +56,7 @@ function App({ signOut }) {
               </Form.Group>
               <br />
             </Form>
-            <button type="button" class="btn btn-outline-success">Create</button>
+          <button type="button" class="btn btn-outline-success" onClick={createRestaurant}>Create</button>
         </Row>
         <hr />
         <h1>Lists</h1>
