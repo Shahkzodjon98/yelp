@@ -15,7 +15,7 @@ export default function YelpNavbar({signOut}){
                  <br></br>
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"></input><br></br>
                 <button class="btn btn-danger" onClick={Search}="submit">Search</button>
-                <Button className="signout" onClick={signOut}>Sign Out</Button>
+                <Button className="signout" onClick={signOut}>Sign Out</Button><br></br>
                  {/* <a href="/signup?return_url=https://www.yelp.com/" class="hide-below-b__09f24__vjFMq css-4ut3yi" data-activated="false" data-button="true"><span class="css-1enow5j" data-font-weight="semibold">Sign Up</span></a>  */}
                 </Navbar.Text>
             </Navbar.Collapse>
