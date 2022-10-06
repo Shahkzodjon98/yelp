@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import "@aws-amplify/ui-react/styles.css";
 import { API } from 'aws-amplify';
-import { withAuthenticator } from '@aws-amplify/ui-react';
+import { Flex, withAuthenticator } from '@aws-amplify/ui-react';
 import { listRestaurants } from './graphql/queries';
 import { Table } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
@@ -35,6 +35,13 @@ function App({ signOut }) {
     await API.graphql({ query: createRestaurantMutation, variables: { input: formData } });
     setRestaurants([ ...Restaurants, formData ]);
     setFormData(initialFormState);
+  }
+  let query = document.querySelector('.query');
+  let btnbtn_dark = document.querySelector('.btnbtn-dark');
+
+  btnbtn_dark.onclick = function(){
+    let url ='https://www.google.com/search?q='+query.value;
+    window.open(url,'_self');
   }
 
   return (
