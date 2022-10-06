@@ -36,13 +36,7 @@ function App({ signOut }) {
     setRestaurants([ ...Restaurants, formData ]);
     setFormData(initialFormState);
   }
-  let query = document.querySelector('.query');
-  let btnbtn_dark = document.querySelector('.btnbtn-dark');
-
-  btnbtn_dark.onclick = function(){
-    let url ='https://www.google.com/search?q='+query.value;
-    window.open(url,'_self');
-  }
+ 
 
   return (
     <div className="App">
