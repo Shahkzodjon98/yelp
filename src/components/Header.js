@@ -13,11 +13,10 @@ export default function YelpNavbar({signOut}){
             <Navbar.Collapse className="justify-content-end">
                 <Navbar.Text>
                  <br></br>
-                {/* <form class="d-flex" "find" role="search"> */}
-                <form class="d-flex"  action="/search" id="header_find_form" role="search" method="get">
-                <input  type="text" name="" class="query" value=""></input>            
-             <button class="btnbtn-dark" type="submit">Search</button>
-                </form>
+                <form class="d-flex" role="search">
+                 <input class="form-control me-2"type="search" autocomplete="off" spellcheck="false" role="combobox" placeholder="Введите поисковый запрос или URL" aria-live="polite"></input>
+                 <button class="btn btn-Info" type="submit">Search</button>
+                  </form>
                 <br></br>
                 <Button className="signout" onClick={signOut}>Sign Out</Button><br></br>
                  {/* <a href="/signup?return_url=https://www.yelp.com/" class="hide-below-b__09f24__vjFMq css-4ut3yi" data-activated="false" data-button="true"><span class="css-1enow5j" data-font-weight="semibold">Sign Up</span></a>  */}
